@@ -168,22 +168,29 @@ body {
   gap: 2.4rem;
 }
 
-/* Button Styles */
-
+/* Updated Button Styles */
 .btn {
-  color: inherit;
+  color: #fff; /* Text color */
   font-family: inherit;
   border: none;
   font-size: 1.4rem;
   font-weight: 500;
-  background-color: #edc84b;
+  background-color: #ffd650;
   padding: 1.4rem 3.2rem;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-  background-color: #e9bb24;
+  background-color: #ffc402;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Responsive Styles */
