@@ -59,7 +59,7 @@ function App() {
 function Header() {
   return (
     <header className="header footer">
-      <h1>Fast React Pizza Co.</h1>
+      <h1>Fast Pizza Co.N</h1>
     </header>
   );
 }
@@ -116,7 +116,7 @@ function Footer() {
   return (
     <footer className="footer">
       {isOpen ? (
-        <Order openHour={openHour} openHour={openHour} />
+        <Order openHour={openHour} />
       ) : (
         <p>We're happy to welcome you between{openHour}</p>
       )}
